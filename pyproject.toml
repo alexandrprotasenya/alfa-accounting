@@ -1,0 +1,17 @@
+[project]
+name = "accounting"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.2"
+dependencies = [
+    "authlib>=1.5.1",
+    "matplotlib>=3.10.1",
+    "streamlit>=1.43.2",
+    "watchdog>=6.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.10",
+]
